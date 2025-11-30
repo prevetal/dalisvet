@@ -1,0 +1,346 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title_b: 100px;
+        --font_size_title: 60px;
+        --font_size_title_s: 40px;
+        --block_head_offset: 30px;
+        --inner_gap: 24px;
+        --inner_gap_s: 12px;
+    }
+
+
+
+    .bg_dark
+    {
+        margin-bottom: 120px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-block: 30px;
+    }
+
+
+    header .menu
+    {
+        margin-left: 100px;
+    }
+
+
+    header .menu_btn
+    {
+        margin-left: 60px;
+    }
+
+
+
+    /*----------------
+        Menu modal
+    ----------------*/
+    .menu_modal
+    {
+        width: 349px;
+        padding-block: 120px var(--cont_padding_double);
+        padding-inline: 60px;
+    }
+
+
+    .menu_modal .socials
+    {
+        margin-top: 80px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .all_link a
+    {
+        height: 60px;
+        padding-inline: calc(var(--cont_padding_double) - 2px);
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *.big
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-block: 200px 100px;
+    }
+
+
+    .first_section .data
+    {
+        width: 960px;
+    }
+
+
+    .first_section .tags
+    {
+        margin-bottom: var(--cont_padding_double);
+    }
+
+
+    .first_section .tags > *
+    {
+        padding-block: 8px;
+        padding-inline: 16px;
+    }
+
+
+    .first_section .btn
+    {
+        margin-top: 60px;
+        padding: 10px;
+    }
+
+
+    .first_section .btn span
+    {
+        height: 64px;
+        padding-inline: 40px;
+    }
+
+
+
+    /*------------
+        Design
+    ------------*/
+    .design .head
+    {
+        margin-bottom: var(--cont_padding_double);
+    }
+
+
+    .design .head .desc
+    {
+        width: 400px;
+        margin-top: var(--cont_padding);
+    }
+
+
+    .design .item
+    {
+        min-height: 180px;
+        padding-block: var(--inner_gap);
+        padding-inline: var(--inner_gap);
+
+        font-size: var(--font_size_b);
+    }
+
+
+    .design .link
+    {
+        margin-top: 40px;
+    }
+
+
+    .design .link a
+    {
+        height: 80px;
+        padding-inline: calc(var(--cont_padding_double) - 2px);
+
+        font-size: var(--font_size_b);
+    }
+
+
+
+    /*----------------------------
+        Equipment and delivery
+    ----------------------------*/
+    .equipment_delivery .item
+    {
+        padding-block: 0 32px;
+        padding-inline: 32px;
+    }
+
+
+    .equipment_delivery .item .thumb
+    {
+        height: 240px;
+    }
+
+
+    .equipment_delivery .item .name
+    {
+        font-size: 36px;
+    }
+
+
+    .equipment_delivery .item .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .projects .project .type
+    {
+        top: var(--cont_padding);
+
+        padding-block: 8px;
+        padding-inline: 16px;
+    }
+
+
+    .projects .project .name
+    {
+        padding-block: 30px;
+        padding-inline: 30px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 80px;
+        padding-block: 100px;
+    }
+
+
+    .about_info .image
+    {
+        width: 640px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .articles .article .date
+    {
+        top: 16px;
+
+        padding-block: 8px;
+        padding-inline: 16px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: var(--font_size_b);
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        margin-bottom: 92px;
+    }
+
+
+    .action_block .data
+    {
+        padding-block: 80px;
+        padding-inline: 68px;
+    }
+
+
+    .action_block .info
+    {
+        width: 540px;
+    }
+
+
+    .action_block .title
+    {
+        font-size: 76px;
+    }
+
+
+    .action_block .btn span
+    {
+        height: 52px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .data
+    {
+        padding-block: 80px;
+    }
+
+
+    footer .bottom
+    {
+        padding-block: var(--cont_padding_double);
+    }
+
+
+    footer .title
+    {
+        margin-bottom: 30px;
+
+        font-size: 26px;
+    }
+
+
+    footer .contacts,
+    footer .logo
+    {
+        margin-right: 120px;
+    }
+
+
+    footer .contacts .callback_btn
+    {
+        margin-top: var(--cont_padding);
+        padding-inline: 20px;
+    }
+
+
+    footer .copyright,
+    footer .link
+    {
+        margin-right: 80px;
+    }
+}

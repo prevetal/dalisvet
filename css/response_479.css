@@ -1,0 +1,67 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title_s: 28px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        width: 128px;
+        height: 16px;
+    }
+
+
+    header .logo img + img
+    {
+        width: 61px;
+        height: 16px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        padding-inline: 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .links
+    {
+        width: 100%;
+    }
+
+
+    footer .links .items
+    {
+        max-width: 100%;
+    }
+
+
+    footer .link
+    {
+        width: calc(50% - 10px);
+    }
+
+
+    footer .socials
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+}

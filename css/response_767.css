@@ -1,0 +1,305 @@
+@media (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --cont_padding: 20px;
+        --font_size_title_b: 42px;
+        --font_size_title: 48px;
+        --font_size_title_s: 32px;
+        --inner_gap: 20px;
+        --inner_gap_s: 10px;
+    }
+
+
+
+    .bg_dark
+    {
+        margin-bottom: 60px;
+        padding-block: 60px;
+
+        gap: 60px;
+    }
+
+
+
+    .mob_all_link
+    {
+        display: block;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-block: 24px;
+    }
+
+
+    header .phone
+    {
+        display: none;
+    }
+
+
+    header .menu_btn
+    {
+        margin-left: 30px;
+    }
+
+
+
+    /*----------------
+        Menu modal
+    ----------------*/
+    .menu_modal
+    {
+        width: 100%;
+        padding-inline: var(--cont_padding);
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: var(--cont_padding);
+    }
+
+
+    .block_head .title.small
+    {
+        font-size: calc(var(--font_size_title_s) - 4px);
+    }
+
+
+    .block_head .all_link
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *.big
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-block: 140px 60px;
+    }
+
+
+    .first_section .tags
+    {
+        margin-bottom: var(--cont_padding);
+    }
+
+
+    .first_section .tags > *
+    {
+        padding-block: 6px;
+        padding-inline: 12px;
+
+        font-size: 10px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: var(--font_size_title_s);
+    }
+
+
+    .first_section .btn span
+    {
+        height: 48px;
+
+        font-size: var(--font_size_s);
+    }
+
+
+
+    /*------------
+        Design
+    ------------*/
+    .design .head .title
+    {
+        line-height: calc(100% + 6px);
+    }
+
+
+    .design .head .desc
+    {
+        width: 351px;
+        max-width: 100%;
+
+        font-size: var(--font_size_s);
+        line-height: calc(100% + 6px);
+    }
+
+
+    .design .link
+    {
+        margin-top: 38px;
+    }
+
+
+    .design .link a
+    {
+        height: 66px;
+        padding-inline: 30px;
+    }
+
+
+
+    /*----------------------------
+        Equipment and delivery
+    ----------------------------*/
+    .equipment_delivery .item
+    {
+        padding-block: 0 30px;
+        padding-inline: 24px;
+    }
+
+
+    .equipment_delivery .item .thumb
+    {
+        height: 180px;
+    }
+
+
+    .equipment_delivery .item .name
+    {
+        font-size: 24px;
+    }
+
+
+    .equipment_delivery .item .desc
+    {
+        line-height: calc(100% + 6px);
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info
+    {
+        margin-bottom: 60px;
+        padding-block: 60px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .action_block .data
+    {
+        padding-block: 272px var(--cont_padding_double);
+    }
+
+
+    .action_block .info
+    {
+        width: 100%;
+    }
+
+
+    .action_block .title
+    {
+        font-size: 48px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .data
+    {
+        padding-block: 60px;
+    }
+
+
+    footer .title
+    {
+        font-size: 22px;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+    }
+
+
+    footer .links
+    {
+        margin-top: 60px;
+    }
+
+
+
+    footer .logo
+    {
+        margin-bottom: 30px;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

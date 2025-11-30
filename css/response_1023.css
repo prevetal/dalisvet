@@ -1,0 +1,314 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .bg_dark:before,
+    .bg_dark:after
+    {
+        background: radial-gradient(100% 50% at 0% -2.09%, rgba(111, 189, 250, .50) 0%, rgba(0, 0, 0, .0) 100%);
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .contacts
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*----------------
+        Menu modal
+    ----------------*/
+    .menu_modal
+    {
+        width: 325px;
+        padding-inline: 48px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .all_link a
+    {
+        height: 48px;
+        padding-inline: calc(var(--cont_padding) - 2px);
+    }
+
+
+
+    /*------------
+        Design
+    ------------*/
+    .design .head .title,
+    .design .head .desc
+    {
+        width: 100%;
+    }
+
+
+    .design .grid_row
+    {
+        display: grid;
+        overflow: auto;
+
+        width: calc(100% + var(--cont_padding_double));
+        margin-block: 0;
+        margin-inline: calc(var(--cont_padding) * -1);
+        padding-inline: var(--cont_padding);
+
+        gap: var(--inner_gap);
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 var(--cont_padding);
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .design .grid_row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .design .grid_row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .design .grid_row > *
+    {
+        width: 266px;
+        margin: 0;
+
+        scroll-snap-align: start;
+    }
+
+
+    .design .link a
+    {
+        height: 60px;
+    }
+
+
+
+    /*----------------------------
+        Equipment and delivery
+    ----------------------------*/
+    .equipment_delivery .grid_row
+    {
+        --count_per_line: 1;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .projects .grid_row
+    {
+        display: grid;
+        overflow: auto;
+
+        width: calc(100% + var(--cont_padding_double));
+        margin-block: 0;
+        margin-inline: calc(var(--cont_padding) * -1);
+        padding-inline: var(--cont_padding);
+
+        gap: var(--inner_gap);
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 var(--cont_padding);
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .projects .grid_row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .projects .grid_row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .projects .grid_row > *
+    {
+        width: 320px;
+        margin: 0;
+
+        scroll-snap-align: start;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: var(--inner_gap);
+    }
+
+
+    .about_info .data
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .articles .grid_row
+    {
+        display: grid;
+        overflow: auto;
+
+        width: calc(100% + var(--cont_padding_double));
+        margin-block: 0;
+        margin-inline: calc(var(--cont_padding) * -1);
+        padding-inline: var(--cont_padding);
+
+        gap: var(--inner_gap);
+        grid-auto-flow: column;
+        grid-auto-columns: max-content;
+        scroll-padding: 0 var(--cont_padding);
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .articles .grid_row::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .articles .grid_row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .articles .grid_row > *
+    {
+        width: 320px;
+        margin: 0;
+
+        scroll-snap-align: start;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        padding-block: 60px;
+    }
+
+
+    .action_block .info
+    {
+        width: 320px;
+    }
+
+
+    .action_block .title
+    {
+        font-size: 52px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .data
+    {
+        padding-block: 68px;
+    }
+
+
+    footer .title
+    {
+        font-size: 20px;
+    }
+
+
+    footer .contacts
+    {
+        width: 244px;
+    }
+
+
+
+    footer .links .items
+    {
+        max-width: 260px;
+
+        gap: 16px;
+    }
+
+
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
