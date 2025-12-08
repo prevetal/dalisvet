@@ -28,6 +28,16 @@
 
 
 
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 68px;
+    }
+
+
+
     /*----------------
         Menu modal
     ----------------*/
@@ -46,6 +56,32 @@
     {
         height: 48px;
         padding-inline: calc(var(--cont_padding) - 2px);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .checkbox
+    {
+        min-height: 24px;
+        padding-left: 40px;
+
+        font-size: var(--font_size_s);
+    }
+
+
+    .form .checkbox .check
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .form .submit_btn span
+    {
+        height: 52px;
     }
 
 
@@ -263,15 +299,143 @@
     }
 
 
+    .action_block.view2 .data
+    {
+        padding-left: 80px;
+    }
+
+
     .action_block .info
     {
         width: 320px;
     }
 
 
+    .action_block.view2 .info
+    {
+        width: 360px;
+    }
+
+
     .action_block .title
     {
         font-size: 52px;
+    }
+
+
+
+    /*-------------------
+        Services head
+    -------------------*/
+    .services_head .data
+    {
+        min-height: 360px;
+    }
+
+
+    .services_head .data:after
+    {
+        width: auto;
+
+        aspect-ratio: 1 / 1;
+    }
+
+
+    .services_head .desc
+    {
+        width: 560px;
+
+        font-size: var(--font_size);
+    }
+
+
+
+    /*----------------
+        About page
+    ----------------*/
+    .about_page
+    {
+        padding-block: 60px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .grid_row
+    {
+        --count_per_line: 2;
+    }
+
+
+    .services .service
+    {
+        height: 180px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------------------
+        For designers head
+    ------------------------*/
+    .for_designers_head
+    {
+        padding-block: 60px;
+    }
+
+
+    .for_designers_info .title
+    {
+        width: 100%;
+        margin-bottom: var(--cont_padding);
+    }
+
+
+    .for_designers_info .desc
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .service_info .data,
+    .service_info .data.big
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .service_info .images,
+    .service_info .data.big + .images
+    {
+        order: 1;
+
+        width: 100%;
+        margin-bottom: var(--cont_padding);
+    }
+
+
+    .service_info .cols
+    {
+        flex-wrap: wrap;
     }
 
 
@@ -310,5 +474,21 @@
     {
         width: 100%;
         margin-bottom: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        --modal_width: 404px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: var(--cont_padding);
     }
 }

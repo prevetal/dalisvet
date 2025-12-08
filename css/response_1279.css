@@ -67,6 +67,22 @@
 
 
 
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 80px;
+    }
+
+
+    .page_desc
+    {
+        margin-top: var(--cont_padding);
+    }
+
+
+
     /*----------------
         Menu modal
     ----------------*/
@@ -183,6 +199,18 @@
     /*----------------------------
         Equipment and delivery
     ----------------------------*/
+    .equipment_delivery.bg_grey
+    {
+        padding-block: 80px;
+    }
+
+
+    .equipment_delivery.bg_grey
+    {
+        padding-block: 60px 80px;
+    }
+
+
     .equipment_delivery .item
     {
         padding-block: 0 var(--cont_padding);
@@ -233,9 +261,21 @@
     /*----------------
         About info
     ----------------*/
-    .about_info
+    .about_info.bg_grey
     {
         padding-block: 80px;
+    }
+
+
+    .about_info .data
+    {
+        width: calc(50% - var(--cont_padding_double));
+    }
+
+
+    .about_info .data.big_pad
+    {
+        padding: 0;
     }
 
 
@@ -278,6 +318,12 @@
     }
 
 
+    .action_block.view2 .data
+    {
+        padding-left: 140px;
+    }
+
+
     .action_block .info
     {
         width: 380px;
@@ -301,6 +347,169 @@
     .action_block .btn span
     {
         height: 48px;
+    }
+
+
+    .action_block .bg:after
+    {
+        width: 65%;
+    }
+
+
+
+    /*-------------------
+        Services head
+    -------------------*/
+    .services_head .data
+    {
+        min-height: 400px;
+        padding: var(--cont_padding);
+    }
+
+
+    .services_head .desc
+    {
+        width: 624px;
+
+        font-size: var(--font_size_m);
+    }
+
+
+
+    /*----------------
+        About page
+    ----------------*/
+    .about_page
+    {
+        margin-bottom: 0;
+        padding-block: 80px 60px;
+    }
+
+
+    .about_info .company
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .about_info .slogan
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        padding-block: 60px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------------------
+        For designers head
+    ------------------------*/
+    .for_designers_head
+    {
+        padding-block: 80px;
+    }
+
+
+    .for_designers_head .btn
+    {
+        padding: 8px;
+    }
+
+
+    .for_designers_head .btn span
+    {
+        height: 52px;
+    }
+
+
+
+    /*------------------------
+        For designers info
+    ------------------------*/
+    .for_designers_info
+    {
+        padding-block: 60px;
+    }
+
+
+    .for_designers_info .desc
+    {
+        width: 50%;
+
+        font-size: var(--font_size);
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head
+    {
+        padding-block: 160px 80px;
+    }
+
+
+    .service_head .desc
+    {
+        width: 724px;
+    }
+
+
+    .service_head .btn
+    {
+        padding: 8px;
+    }
+
+
+    .service_head .btn span
+    {
+        height: 52px;
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .service_info .data,
+    .service_info .data.big
+    {
+        width: 400px;
+    }
+
+
+    .service_info .title,
+    .service_info .cols .title
+    {
+        font-size: 30px;
+    }
+
+
+    .service_info .images,
+    .service_info .data.big + .images
+    {
+        width: calc(100% - 448px);
     }
 
 

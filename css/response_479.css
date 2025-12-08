@@ -38,6 +38,32 @@
 
 
 
+    /*-------------------
+        Services head
+    -------------------*/
+    .services .service
+    {
+        height: 108px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------------
+        For designers info
+    ------------------------*/
+    .for_designers_info .desc
+    {
+        font-size: var(--font_size_s);
+    }
+
+
+
     /*------------
         Footer
     ------------*/
