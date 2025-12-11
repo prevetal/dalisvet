@@ -138,6 +138,12 @@
     }
 
 
+    .text_block h2
+    {
+        font-size: 30px;
+    }
+
+
 
     /*-------------------
         First section
@@ -510,6 +516,220 @@
     .service_info .data.big + .images
     {
         width: calc(100% - 448px);
+    }
+
+
+
+    /*----------------
+        Inner page
+    ----------------*/
+    .inner_page
+    {
+        margin-bottom: 80px;
+        padding-block: 80px 0;
+    }
+
+
+    .inner_page .head .desc
+    {
+        width: 880px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .item.email
+    {
+        width: 440px;
+        margin-top: var(--cont_padding_double);
+        margin-left: 0;
+    }
+
+
+    .contacts_info .item .val
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe
+    {
+        margin-bottom: 160px;
+    }
+
+
+    .subscribe .links
+    {
+        gap: var(--inner_gap_s);
+    }
+
+
+    .subscribe .links a
+    {
+        height: 68px;
+        padding-inline: var(--cont_padding);
+
+        font-size: 18px;
+    }
+
+
+    .subscribe .links .instagram_link .icon,
+    .subscribe .links .pinterest_link .icon
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .subscribe .links .vk_link .icon
+    {
+        width: 36px;
+        height: 23px;
+    }
+
+
+    .subscribe .links .tg_link .icon
+    {
+        width: 32px;
+        height: 27px;
+    }
+
+
+    .subscribe .links .youtube_link .icon
+    {
+        width: 24px;
+        height: 30px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        margin-bottom: 60px;
+        padding-top: 80px;
+    }
+
+
+    .article_info .head
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .article_info .head .image
+    {
+        width: 440px;
+    }
+
+
+    .article_info .head .info
+    {
+        width: calc(100% - 488px);
+    }
+
+
+    .article_info .head .summary
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .article_info .text_block.border
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .article_info .sections + *
+    {
+        margin-top: 80px;
+    }
+
+
+    .article_info .sections .data,
+    .article_info .sections .data.big
+    {
+        width: 400px;
+    }
+
+
+    .article_info .sections .title,
+    .article_info .sections .cols .title
+    {
+        font-size: 30px;
+    }
+
+
+    .article_info .sections .images,
+    .article_info .sections .data.big + .images
+    {
+        width: calc(100% - 448px);
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info
+    {
+        margin-bottom: 60px;
+        padding-top: 80px;
+    }
+
+
+    .project_info .category
+    {
+        padding-block: 8px;
+        padding-inline: 20px;
+    }
+
+
+    .project_info .head
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .project_info .head .image
+    {
+        width: 50%;
+    }
+
+
+    .project_info .head .data
+    {
+        width: calc(50% - var(--inner_gap));
+    }
+
+
+    .project_info .head .data > *
+    {
+        padding-inline: var(--inner_gap);
+    }
+
+
+    .project_info .head .info
+    {
+        padding-block: var(--inner_gap);
+    }
+
+
+    .project_info .head .info .text_block
+    {
+        margin-top: var(--inner_gap);
+
+        font-size: var(--font_size);
+        line-height: calc(100% + 8px);
     }
 
 

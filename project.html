@@ -39,12 +39,12 @@
 	<body>
 		<div class="wrap">
 			<div class="main">
-				<header class="absolute">
+				<header>
 					<div class="cont row">
-						<div class="logo">
+						<a href="/" class="logo">
 							<img src="images/logo.svg" alt="">
 							<img src="images/logo_desc.svg" alt="">
-						</div>
+						</a>
 
 						<nav class="menu">
 							<div class="menu_item">
@@ -56,7 +56,7 @@
 							</div>
 
 							<div class="menu_item">
-								<a href="/">Проекты</a>
+								<a class="active">Проекты</a>
 							</div>
 
 							<div class="menu_item">
@@ -123,98 +123,125 @@
 				</section>
 
 
-				<section class="first_section">
+				<section class="project_info">
 					<div class="cont">
-						<div class="data">
-							<div class="tags">
-								<div class="dark">Экстерьер</div>
-								<div>Интерьер</div>
+						<div class="category">ПРОЕКТЫ</div>
+
+						<h1 class="project_title">Проект освещения для офисного пространства </h1>
+
+						<div class="head">
+							<picture class="image">
+								<img src="images/tmp/project_img.jpg" alt="" loading="lazy">
+							</picture>
+
+							<div class="data">
+								<div class="info">
+									<div class="office">
+										<div class="label">Офис</div>
+
+										<div class="location">г. Санкт-Петербург</div>
+									</div>
+
+									<div class="text_block">
+										<p>Поучаствовали в проекте дизайнера Александры Александровой — спроектировали и поставили освещение в офисный блок площадью свыше 1000 м2.</p>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="title">Задача</div>
+
+									<div class="text_block">
+										<p>Реализовать концепцию освещения для офисного пространства с индивидуальным освещением для каждого рабочего места.</p>
+									</div>
+								</div>
+
+								<div class="item">
+									<div class="title">Что было сделано</div>
+
+									<div class="text_block">
+										<ul>
+											<li>Светотехнический расчет.</li>
+
+											<li>Разработана концепция освещения с индивидуальным освещением для каждого рабочего места.</li>
+
+											<li>Подобраны оптимальные светильники для проекта.</li>
+										</ul>
+									</div>
+								</div>
 							</div>
+						</div>
 
-							<div class="title">Создаем проекты<br> освещения со структурой, глубиной и гармонией.</div>
+						<div class="gallery">
+							<a href="images/tmp/project_gallery_thumb1.jpg" class="item middle fancy_img" data-fancybox="project">
+								<picture class="thumb">
+									<img src="images/tmp/project_gallery_thumb1.jpg" alt="" loading="lazy">
+								</picture>
+							</a>
 
-							<button class="btn modal_btn" data-modal="callback_modal">
-								<span>Сделать расчет</span>
-							</button>
+							<a href="images/tmp/project_gallery_thumb2.jpg" class="item middle fancy_img" data-fancybox="project">
+								<picture class="thumb">
+									<img src="images/tmp/project_gallery_thumb2.jpg" alt="" loading="lazy">
+								</picture>
+							</a>
+
+							<a href="images/tmp/project_gallery_thumb3.jpg" class="item big fancy_img" data-fancybox="project">
+								<picture class="thumb">
+									<img src="images/tmp/project_gallery_thumb3.jpg" alt="" loading="lazy">
+								</picture>
+							</a>
+
+							<a href="images/tmp/project_gallery_thumb4.jpg" class="item fancy_img" data-fancybox="project">
+								<picture class="thumb">
+									<img src="images/tmp/project_gallery_thumb4.jpg" alt="" loading="lazy">
+								</picture>
+							</a>
+
+							<a href="images/tmp/project_gallery_thumb5.jpg" class="item fancy_img" data-fancybox="project">
+								<picture class="thumb">
+									<img src="images/tmp/project_gallery_thumb5.jpg" alt="" loading="lazy">
+								</picture>
+							</a>
+
+							<a href="images/tmp/project_gallery_thumb6.jpg" class="item fancy_img" data-fancybox="project">
+								<picture class="thumb">
+									<img src="images/tmp/project_gallery_thumb6.jpg" alt="" loading="lazy">
+								</picture>
+							</a>
 						</div>
 					</div>
-
-					<picture class="bg">
-						<img src="images/tmp/bg_first_section.jpg" alt="" loading="lazy" class="cover">
-					</picture>
 				</section>
 
 
-				<section class="bg_dark">
-					<section class="design">
-						<div class="cont">
-							<div class="block_head">
-								<div class="title small">Проектирование ↓</div>
+				<section class="action_block">
+					<div class="cont">
+						<div class="data">
+							<div class="info">
+								<div class="title">Оставить<br> заявку</div>
+
+								<div class="desc">Мы свяжемся с вами, уточним все необходимые детали, произведем расчеты и сделаем индивидуальное предложение.</div>
+
+								<button class="btn modal_btn" data-modal="callback_modal">
+									<span>Записаться</span>
+								</button>
 							</div>
 
-							<div class="head">
-								<div class="title">Архитектура<br> освещения</div>
+							<picture class="bg">
+								<source
+									srcset="images/tmp/bg_action_block_mobile.jpg"
+									media="(max-width: 767px)"
+								>
 
-								<div class="desc">Комплексная услуга по проектированию освещения для жилых и коммерческих помещений.</div>
-							</div>
-
-							<div class="grid_row">
-								<div class="item">Разработка концепции освещения</div>
-
-								<div class="item">Создание 3D-модели помещения</div>
-
-								<div class="item">Расстановка освещения</div>
-
-								<div class="item">Светотехнический расчет</div>
-							</div>
-
-							<div class="link">
-								<a href="/">Узнать подробнее</a>
-							</div>
+								<img src="images/tmp/bg_action_block.jpg" alt="" loading="lazy" class="cover">
+							</picture>
 						</div>
-					</section>
-
-
-					<section class="equipment_delivery">
-						<div class="cont">
-							<div class="block_head">
-								<div class="title small">Комплектация и поставка ↓</div>
-							</div>
-
-							<div class="grid_row">
-								<a href="/" class="item">
-									<picture class="thumb aligntop">
-										<img src="images/tmp/equipment_delivery_thumb1.png" alt="" loading="lazy">
-									</picture>
-
-									<div class="name">Светильники и системы освещения</div>
-
-									<div class="desc">Подберем и поставим проверенные светильники для интерьера, улицы и ландшафта.</div>
-								</a>
-
-								<a href="/" class="item">
-									<picture class="thumb">
-										<img src="images/tmp/equipment_delivery_thumb2.png" alt="" loading="lazy">
-									</picture>
-
-									<div class="name">Электроустановочные изделия</div>
-
-									<div class="desc">Подберем и поставим все необходимое: розетки, выключатели и системы управления.</div>
-								</a>
-							</div>
-						</div>
-					</section>
+					</div>
 				</section>
 
 
 				<section class="projects">
 					<div class="cont">
 						<div class="block_head">
-							<div class="title">Проекты</div>
-
-							<div class="all_link">
-								<a href="/">Все проекты</a>
-							</div>
+							<div class="title small">Другие проекты</div>
 						</div>
 
 						<div class="grid_row inline">
@@ -247,106 +274,6 @@
 
 								<div class="name">Бутик-отель в Краснодаре</div>
 							</a>
-						</div>
-
-						<div class="mob_all_link">
-							<a href="/">Все проекты</a>
-						</div>
-					</div>
-				</section>
-
-
-				<section class="about_info bg_grey">
-					<div class="cont">
-						<picture class="image">
-							<img src="images/tmp/about_info_img.jpg" alt="" loading="lazy">
-						</picture>
-
-						<div class="data">
-							<div class="block_head">
-								<div class="title">О нас</div>
-							</div>
-
-							<div class="text_block">
-								<p class="big"><em>Наша миссия — проектирование и внедрение интеллектуальных систем освещения, которые объединяют энергоэффективность, передовые технологии и безупречный дизайн.</em></p>
-
-								<p>Наша миссия — проектирование и внедрение интеллектуальных систем освещения, которые объединяют энергоэффективность, передовые технологии и безупречный дизайн.</p>
-							</div>
-						</div>
-					</div>
-				</section>
-
-
-				<section class="articles">
-					<div class="cont">
-						<div class="block_head">
-							<div class="title">Блог</div>
-
-							<div class="all_link">
-								<a href="/">Все статьи</a>
-							</div>
-						</div>
-
-						<div class="grid_row inline">
-							<a href="/" class="article">
-								<div class="date">29 октября</div>
-
-								<picture class="thumb">
-									<img src="images/tmp/article_thumb1.jpg" alt="" loading="lazy" class="cover">
-								</picture>
-
-								<div class="name">Выбираем трековые светильники: на что стоит обратить внимание</div>
-							</a>
-
-							<a href="/" class="article">
-								<div class="date">22 октября</div>
-
-								<picture class="thumb">
-									<img src="images/tmp/article_thumb2.jpg" alt="" loading="lazy" class="cover">
-								</picture>
-
-								<div class="name">Светотехнический расчет: что мы учитываем при разработке проекта</div>
-							</a>
-
-							<a href="/" class="article">
-								<div class="date">14 мая</div>
-
-								<picture class="thumb">
-									<img src="images/tmp/article_thumb3.jpg" alt="" loading="lazy" class="cover">
-								</picture>
-
-								<div class="name">Проектирование освещения для существующих зданий через IFC</div>
-							</a>
-						</div>
-
-						<div class="mob_all_link">
-							<a href="/">Все статьи</a>
-						</div>
-					</div>
-				</section>
-
-
-				<section class="action_block">
-					<div class="cont">
-						<div class="data">
-							<div class="info">
-								<div class="title">Оставить<br> заявку</div>
-
-								<div class="desc">Мы свяжемся с вами, уточним все необходимые детали, произведем расчеты и сделаем индивидуальное предложение.</div>
-
-								<button class="btn modal_btn" data-modal="callback_modal">
-									<span>Записаться</span>
-								</button>
-							</div>
-
-							<picture class="bg">
-								<source
-									srcset="images/tmp/bg_action_block_mobile.jpg"
-									media="(max-width: 767px)"
-								>
-
-								<img src="images/tmp/bg_action_block.jpg" alt="" loading="lazy" class="cover">
-							</picture>
 						</div>
 					</div>
 				</section>

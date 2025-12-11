@@ -45,6 +45,34 @@
 
 
 
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 60px;
+
+        gap: var(--inner_gap_s);
+    }
+
+
+    .pagination a
+    {
+        width: 60px;
+        height: 60px;
+
+        font-size: var(--font_size);
+    }
+
+
+    .pagination a.prev,
+    .pagination a.next
+    {
+        padding-inline: calc(var(--inner_gap) - 2px);
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -147,6 +175,12 @@
     .text_block > *.big
     {
         margin-bottom: 40px;
+    }
+
+
+    .text_block ul
+    {
+        width: 860px;
     }
 
 
@@ -286,6 +320,12 @@
     }
 
 
+    .projects .grid_row
+    {
+        --offset_v: var(--cont_padding_double);
+    }
+
+
     .projects .project .type
     {
         top: var(--cont_padding);
@@ -331,6 +371,12 @@
     .articles
     {
         margin-bottom: 120px;
+    }
+
+
+    .articles .grid_row
+    {
+        --offset_v: var(--cont_padding_double);
     }
 
 
@@ -592,6 +638,283 @@
     .service_info .cols
     {
         gap: var(--cont_padding_double);
+    }
+
+
+
+    /*----------------
+        Inner page
+    ----------------*/
+    .inner_page
+    {
+        margin-bottom: 100px;
+        padding-block: 100px 0;
+    }
+
+
+    .inner_page .head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .inner_page .head .desc
+    {
+        width: 1000px;
+        margin-top: 32px;
+
+        line-height: calc(100% + 8px);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .contacts_info .updating
+    {
+        margin-bottom: 20px;
+        padding-block: 8px;
+        padding-inline: 20px;
+    }
+
+
+    .contacts_info .item.location
+    {
+        width: 440px;
+    }
+
+
+    .contacts_info .item.phone
+    {
+        width: 360px;
+        margin-left: 80px;
+    }
+
+
+    .contacts_info .item.email
+    {
+        width: 280px;
+        margin-left: var(--cont_padding_double);
+    }
+
+
+    .contacts_info .item .val
+    {
+        font-size: 22px;
+    }
+
+
+    .contacts_info .item .messengers .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .contacts_info .item .messengers .tg_link .icon
+    {
+        width: 28px;
+        height: 24px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe
+    {
+        margin-bottom: 200px;
+    }
+
+
+    .subscribe .cont
+    {
+        gap: var(--cont_padding_double);
+    }
+
+
+    .subscribe .links a
+    {
+        height: 80px;
+        padding-inline: 28px;
+
+        font-size: 20px;
+    }
+
+
+    .subscribe .links .instagram_link .icon,
+    .subscribe .links .pinterest_link .icon
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        margin-bottom: 80px;
+        padding-top: 100px;
+    }
+
+
+    .article_info .category
+    {
+        padding-block: 8px;
+        padding-inline: 20px;
+    }
+
+
+    .article_info .head
+    {
+        margin-top: 60px;
+    }
+
+
+    .article_info .head .info
+    {
+        width: calc(100% - 580px);
+
+        gap: var(--cont_padding);
+    }
+
+
+    .article_info .head .date
+    {
+        padding-block: 8px;
+        padding-inline: 20px;
+    }
+
+
+    .article_info .text_block.border
+    {
+        margin-top: 60px;
+        padding-top: var(--cont_padding_double);
+    }
+
+
+    .article_info .sections + *
+    {
+        margin-top: 100px;
+    }
+
+
+    .article_info .sections .data.big
+    {
+        width: 532px;
+    }
+
+
+    .article_info .sections .images
+    {
+        width: calc(100% - 548px);
+    }
+
+
+    .article_info .sections .data.big + .images
+    {
+        width: calc(100% - 580px);
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info
+    {
+        margin-bottom: 80px;
+        padding-top: 100px;
+    }
+
+
+    .project_info .category
+    {
+        padding-block: 8px;
+        padding-inline: 20px;
+    }
+
+
+    .project_info .head
+    {
+        margin-top: 60px;
+    }
+
+
+    .project_info .head .data
+    {
+        width: calc(50% - 148px);
+    }
+
+
+    .project_info .head .info
+    {
+        padding-block: var(--cont_padding_double);
+    }
+
+
+    .project_info .head .info .office
+    {
+        gap: var(--inner_gap);
+    }
+
+
+
+    .project_info .gallery
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page
+    {
+        padding-block: 160px 80px;
+    }
+
+
+    .error_page .desc
+    {
+        min-height: 120px;
+        margin-top: 32px;
+
+        line-height: calc(100% + 8px);
+    }
+
+
+    .error_page .links
+    {
+        margin-top: var(--inner_gap);
+    }
+
+
+    .error_page .links a
+    {
+        height: 80px;
+
+        line-height: calc(100% + 8px);
+    }
+
+
+    .error_page .links a.back
+    {
+        width: 280px;
+
+        font-size: 20px;
     }
 
 

@@ -12,6 +12,23 @@
 
 
 
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .pagination a
+    {
+        width: var(--cont_padding_double);
+        height: var(--cont_padding_double);
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -170,6 +187,13 @@
 
     .projects .grid_row
     {
+        --count_per_line: 2;
+        --offset_v: var(--inner_gap);
+    }
+
+
+    .projects .grid_row.inline
+    {
         display: grid;
         overflow: auto;
 
@@ -188,7 +212,7 @@
     }
 
 
-    .projects .grid_row::-webkit-scrollbar
+    .projects .grid_row.inline::-webkit-scrollbar
     {
         display: none !important;
 
@@ -199,13 +223,13 @@
     }
 
 
-    .projects .grid_row::-webkit-scrollbar-thumb
+    .projects .grid_row.inline::-webkit-scrollbar-thumb
     {
         background-color: transparent !important;
     }
 
 
-    .projects .grid_row > *
+    .projects .grid_row.inline > *
     {
         width: 320px;
         margin: 0;
@@ -245,6 +269,12 @@
 
     .articles .grid_row
     {
+        --count_per_line: 2;
+    }
+
+
+    .articles .grid_row.inline
+    {
         display: grid;
         overflow: auto;
 
@@ -263,7 +293,7 @@
     }
 
 
-    .articles .grid_row::-webkit-scrollbar
+    .articles .grid_row.inline::-webkit-scrollbar
     {
         display: none !important;
 
@@ -274,13 +304,13 @@
     }
 
 
-    .articles .grid_row::-webkit-scrollbar-thumb
+    .articles .grid_row.inline::-webkit-scrollbar-thumb
     {
         background-color: transparent !important;
     }
 
 
-    .articles .grid_row > *
+    .articles .grid_row.inline > *
     {
         width: 320px;
         margin: 0;
@@ -436,6 +466,190 @@
     .service_info .cols
     {
         flex-wrap: wrap;
+    }
+
+
+
+    /*----------------
+        Inner page
+    ----------------*/
+    .inner_page
+    {
+        margin-bottom: 60px;
+        padding-block: 60px 0;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .item.location
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .item.phone,
+    .contacts_info .item.email
+    {
+        width: 100%;
+        margin-top: var(--cont_padding_double);
+        margin-left: 0;
+    }
+
+
+    .contacts_info .item.phone .val
+    {
+        gap: var(--cont_padding);
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .subscribe .title br
+    {
+        display: none;
+    }
+
+
+    .subscribe .links
+    {
+        gap: var(--inner_gap);
+    }
+
+
+    .subscribe .links a
+    {
+        height: 60px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        padding-top: 60px;
+    }
+
+
+    .article_info .head .image
+    {
+        width: 100%;
+        margin-bottom: var(--cont_padding);
+    }
+
+
+    .article_info .head .info
+    {
+        width: 100%;
+    }
+
+
+    .article_info .sections
+    {
+        margin-top: 60px;
+
+        gap: 60px;
+    }
+
+
+    .article_info .sections + *
+    {
+        margin-top: 60px;
+    }
+
+
+    .article_info .sections .data,
+    .article_info .sections .data.big
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .article_info .sections .images,
+    .article_info .sections .data.big + .images
+    {
+        order: 1;
+
+        width: 100%;
+        margin-bottom: var(--cont_padding);
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info
+    {
+        padding-top: 60px;
+    }
+
+
+    .project_info .head .image
+    {
+        width: 100%;
+        margin-bottom: var(--cont_padding);
+    }
+
+
+    .project_info .head .data
+    {
+        width: 100%;
+    }
+
+
+    .project_info .head .title
+    {
+        margin-bottom: 16px;
+
+        font-size: var(--font_size);
+        line-height: calc(100% + 8px);
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page
+    {
+        padding-block: 220px 60px;
+    }
+
+
+    .error_page .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .error_page .links a
+    {
+        height: 68px;
+
+        font-size: var(--font_size);
+    }
+
+
+    .error_page .links a.back
+    {
+        width: 248px;
+
+        font-size: 18px;
     }
 
 

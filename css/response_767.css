@@ -58,6 +58,16 @@
 
 
 
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination a
+    {
+        font-size: var(--font_size_s);
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -164,6 +174,24 @@
     .text_block > *.big
     {
         margin-bottom: 24px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 24px;
+    }
+
+
+    .text_block * + h2
+    {
+        margin-top: 60px;
+    }
+
+
+    .text_block .images
+    {
+        margin-block: 60px;
     }
 
 
@@ -290,6 +318,12 @@
     }
 
 
+    .projects .grid_row
+    {
+        --count_per_line: 1;
+    }
+
+
 
     /*----------------
         About info
@@ -313,6 +347,12 @@
     .articles
     {
         margin-bottom: 60px;
+    }
+
+
+    .articles .grid_row
+    {
+        --count_per_line: 1;
     }
 
 
@@ -507,6 +547,213 @@
     .service_info .cols .title
     {
         font-size: 24px;
+    }
+
+
+
+    /*----------------
+        Inner page
+    ----------------*/
+    .inner_page
+    {
+        padding-block: var(--cont_padding_double) 0;
+    }
+
+
+    .inner_page .head
+    {
+        margin-bottom: var(--cont_padding_double);
+    }
+
+
+    .inner_page .head .desc
+    {
+        margin-top: var(--cont_padding);
+
+        font-size: var(--font_size_s);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .item .val
+    {
+        font-size: 18px;
+    }
+
+
+    .contacts_info .item .messengers .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .contacts_info .item .messengers .tg_link .icon
+    {
+        width: 24px;
+        height: 20px;
+    }
+
+
+    .contacts_info .item .desc
+    {
+        font-size: var(--font_size_s);
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe
+    {
+        margin-bottom: 120px;
+    }
+
+
+    .subscribe .links a
+    {
+        height: 56px;
+        padding-inline: 24px;
+
+        font-size: 16px;
+    }
+
+
+    .subscribe .links .instagram_link .icon,
+    .subscribe .links .pinterest_link .icon
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .subscribe .links .vk_link .icon
+    {
+        width: 32px;
+        height: 20px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        padding-top: var(--cont_padding_double);
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: var(--font_size_title_s);
+        line-height: calc(100% + 8px);
+    }
+
+
+    .article_info .text_block
+    {
+        font-size: var(--font_size_s);
+    }
+
+
+
+    .article_info .sections .data
+    {
+        gap: var(--inner_gap_s);
+    }
+
+
+    .article_info .sections .title,
+    .article_info .sections .cols .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*------------------
+        Project info
+    ------------------*/
+    .project_info
+    {
+        padding-top: var(--cont_padding_double);
+    }
+
+
+    .project_info .project_title
+    {
+        font-size: var(--font_size_title_s);
+        line-height: calc(100% + 8px);
+    }
+
+
+    .project_info .gallery
+    {
+        margin-bottom: calc(var(--cont_padding_half) * -1);
+        margin-left: calc(var(--cont_padding_half) * -1);
+    }
+
+
+    .project_info .gallery > *
+    {
+        width: calc(33.333% - var(--cont_padding_half));
+        margin-bottom: var(--cont_padding_half);
+        margin-left: var(--cont_padding_half);
+    }
+
+
+    .project_info .gallery > *.middle
+    {
+        width: calc(50% - var(--cont_padding_half));
+    }
+
+
+    .project_info .gallery > *.big
+    {
+        width: calc(100% - var(--cont_padding_half));
+    }
+
+
+
+    /*----------------
+        Error page
+    ----------------*/
+    .error_page
+    {
+        padding-block: 140px 60px;
+    }
+
+
+    .error_page .desc
+    {
+        font-size: var(--font_size_s);
+    }
+
+
+    .error_page .links
+    {
+        gap: var(--inner_gap);
+    }
+
+
+    .error_page .links a
+    {
+        height: 60px;
+
+        font-size: var(--font_size_s);
+    }
+
+
+    .error_page .links a.back
+    {
+        width: 200px;
+
+        font-size: 16px;
     }
 
 
