@@ -3,6 +3,51 @@ WH = window.innerHeight || document.clientHeight || document.getElementsByTagNam
 
 
 document.addEventListener('DOMContentLoaded', function() {
+	// First section sliders
+	const firstSectionSliders = [],
+		firstSectionSlider = document.querySelectorAll('.first_section .swiper')
+
+	firstSectionSlider.forEach((el, i) => {
+		el.classList.add('first_section_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			lazy: true,
+			spaceBetween: 0,
+			slidesPerView: 1,
+			autoplay: {
+				delay: 3000,
+				disableOnInteraction: false,
+			},
+			effect: 'fade',
+			fadeEffect: {
+				crossFade: true
+			},
+		}
+
+		firstSectionSliders.push(new Swiper('.first_section_s' + i, options))
+	})
+
+
+	$('.first_section .slider_btn').click(function(e) {
+		e.preventDefault()
+
+		if (!$(this).hasClass('active')) {
+			const slider = $(this).data('slider')
+
+			$('.first_section .slider_btn').removeClass('active')
+			$(this).addClass('active')
+
+			$('.first_section .sliders .swiper').removeClass('show')
+			$('.first_section .sliders .' + slider).addClass('show')
+		}
+	})
+
+
 	// Menu modal
 	$('header .menu_btn').click((e) => {
 		e.preventDefault()

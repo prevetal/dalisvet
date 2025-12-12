@@ -200,13 +200,13 @@
     }
 
 
-    .first_section .tags
+    .first_section .slider_btns
     {
         margin-bottom: var(--cont_padding_double);
     }
 
 
-    .first_section .tags > *
+    .first_section .slider_btn
     {
         padding-block: 8px;
         padding-inline: 16px;
